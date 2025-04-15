@@ -1,0 +1,70 @@
+@import "tailwindcss";
+/* @import "tailwindcss/preflight"; */
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 24 10% 10%;
+    --card: 12 6% 15%;
+    --foreground: 24 5% 64%;
+    --popover: 24 10% 10%;
+    --muted: 30 6% 25%;
+    --accent: 30 6% 25%;
+    --border: 30 6% 25%;
+    --input: 30 6% 25%;
+    --primary: 240 4.8% 95.9%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+
+  .text-primary {
+    color: hsl(var(--primary));
+  }
+
+  .text-muted {
+    color: hsl(var(--muted));
+  }
+
+  .text-accent {
+    color: hsl(var(--accent));
+  }
+
+  .text-popover {
+    color: hsl(var(--popover));
+  }
+
+  .text-card {
+    color: hsl(var(--card));
+  }
+
+  .text-background {
+    color: hsl(var(--background));
+  }
+
+  .text-input {
+    color: hsl(var(--input));
+  }
+
+  .text-border {
+    color: hsl(var(--border));
+  }
+
+  .text-sm { font-size: 0.875rem; }
+  .text-base { font-size: 1rem; }
+  .text-lg { font-size: 1.125rem; }
+}
+
+
