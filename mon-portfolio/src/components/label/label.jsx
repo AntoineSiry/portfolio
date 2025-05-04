@@ -3,7 +3,7 @@ import { ExternalLinkIcon } from "lucide-react"
 import { Text } from "../text/text";
 
 export const Label = (props) => {
-  const { type, link} = props; // avoir un type et type c'est genre ended wip ou ood et ca décide tout seul la couleur et le texte
+  const { type, link} = props;
 
   const Tag = link ? "a" : "span";
 
