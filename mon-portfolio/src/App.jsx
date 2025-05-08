@@ -13,40 +13,67 @@ function App() {
 
       <section className="flex gap-10 flex-col">
         <Projectcard 
-          title="Profile Checker LeagueOfLegends"
+          title="Profile Checker LeagueOfLegends - Projet personnel"
           role="Développeur Fullstack"
-          tasks={["Mettre en place les call API utilisant  "]}
+          tasks={["Création d’un projet Javascript permettant de voir son profil du jeu League OfLegends.",
+            "Mise en place d’un serveur proxy (Express.js)",
+            "Prise en main de l'Api RiotGames. Récupération et traitement des données fournies via celle-ci.",
+            "Création du CSS et HTML nécessaire pour l’affichage et la mise en forme du profil de l’utilisateur recherché."]}
           techs={["Javascript, HTML, CSS, APi RiotGames"]}
           type="ood"
           link="https://github.com/AntoineSiry/UGGLike"
         />
 
         <Projectcard 
-          title="Yabuba"
+          title="Yabuba - Projet de fin d'année Bachelor"
           role="Développeur Gameplay"
-          tasks={["test"]}
+          tasks={["Responsable de toute la logique de gestion des inventaires, consommables,items. Mise en place de cette logique en C++ pour une utilisation en jeu.", 
+            "Mise en relation des systèmes listés au préalable ainsi que du système de dialogues créé par l’équipe",
+            "Création d’un système d’occlusion permettant au joueur de voir à travers les éléments de décors si nécessaire", 
+            "Constante recherche d’optimisation des performances ainsi que de la fluidité du gameplay."]}
           techs={["C++, UnrealEngine, Blueprint"]}
           type="ended"
           link=""
         />
 
-        <Projectcard 
+        {/* <Projectcard 
           title="Discord bot roulette"
           role="Developpeur fullstack"
           tasks={["test"]}
           techs={["test"]}
           type="wip"
           link="https://github.com/AntoineSiry/discord-bot-roulette"
-        />
+        /> */}
 
         <Projectcard 
-          title="Platform Mini-game"
+          title="Platform Mini-game - Projet Freelance"
           role="Developpeur Gameplay C++"
           tasks={["Concevoir, itérer et ajuster les mécaniques d’un jeu de plateforme." , "Participation active au sein d’une équipe agile et pluridisciplinaire pour assurer la qualité et la cohérence du projet principal. Responsable de l’intégration fluide du jeu de platforme dans l’environnement global.", "Réactivité face aux retours utilisateurs et aux indicateurs de performance, avec une approche itérative pour optimiser en continu le gameplay et les performances."]}
           techs={["C++, Blueprint, UnrealEngine"]}
           type="ood"
           link="https://github.com/AntoineSiry/HexaFall.git"
         />
+
+        <Projectcard 
+          title="Megalopolis Video Game - Projet d'étude"
+          role="Developpeur Gameplay C++"
+          tasks={["Conception du jeu Megalopolis en C++ sur UnrealEngine." , "Creation du jeu de base et implémentation de certaines règles du jeu.", "Utilisations de certains design pattern comme Strategy pour implémenter les différentes règles des cartes."]}
+          techs={["C++, Blueprint, UnrealEngine"]}
+          type="ended"
+          link="https://github.com/AntoineSiry/MegaloFuturae.git"
+        />
+
+        <Projectcard 
+          title="Stage BTS - LMB (Association sportive Le Mans Badminton)"
+          role="Developpeur JAVA/Android"
+          tasks={["Chargé de l’aspect sécurité d’un programme permettant aux adhérents du club de l’année en cours, d’ouvrir un portail de parking à distance.",
+            "Appréhender et comprendre un programme déjà existant", 
+            "Traiter depuis une base de données les informations nécessaires à la vérification de la bonne adhésion de la personne qui demande l’ouverture du portail."]}
+          techs={["Java, Api GooleContacts, QtCreator"]}
+          type="ended"
+          link=""
+        />
+
       </section>
         <Divider className="my-7"/>
 
