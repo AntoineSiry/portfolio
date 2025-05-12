@@ -13,14 +13,14 @@ function App() {
 
       <section className="flex gap-10 flex-col">
         <Projectcard 
-          title="Profile Checker LeagueOfLegends - Projet personnel"
+          title="Profile Checker League Of Legends - Projet personnel"
           role="Développeur Fullstack"
-          tasks={["Création d’un projet Javascript permettant de voir son profil du jeu League OfLegends.",
+          tasks={["Création d’un projet Javascript permettant de voir son profil du jeu League Of Legends.",
             "Mise en place d’un serveur proxy (Express.js)",
             "Prise en main de l'Api RiotGames. Récupération et traitement des données fournies via celle-ci.",
             "Création du CSS et HTML nécessaire pour l’affichage et la mise en forme du profil de l’utilisateur recherché."]}
           techs={["Javascript, HTML, CSS, APi RiotGames"]}
-          type="ood"
+          type="ended"
           link="https://github.com/AntoineSiry/UGGLike"
         />
 
@@ -46,11 +46,11 @@ function App() {
         /> */}
 
         <Projectcard 
-          title="Platform Mini-game - Projet Freelance"
+          title="Platform Mini-game - Projet Auto-Entrepreneur"
           role="Developpeur Gameplay C++"
           tasks={["Concevoir, itérer et ajuster les mécaniques d’un jeu de plateforme." , "Participation active au sein d’une équipe agile et pluridisciplinaire pour assurer la qualité et la cohérence du projet principal. Responsable de l’intégration fluide du jeu de platforme dans l’environnement global.", "Réactivité face aux retours utilisateurs et aux indicateurs de performance, avec une approche itérative pour optimiser en continu le gameplay et les performances."]}
           techs={["C++, Blueprint, UnrealEngine"]}
-          type="ood"
+          type="ended"
           link="https://github.com/AntoineSiry/HexaFall.git"
         />
 
@@ -69,7 +69,7 @@ function App() {
           tasks={["Chargé de l’aspect sécurité d’un programme permettant aux adhérents du club de l’année en cours, d’ouvrir un portail de parking à distance.",
             "Appréhender et comprendre un programme déjà existant", 
             "Traiter depuis une base de données les informations nécessaires à la vérification de la bonne adhésion de la personne qui demande l’ouverture du portail."]}
-          techs={["Java, Api GooleContacts, QtCreator"]}
+          techs={["Java, Api GooleContacts, QtCreator, SQL"]}
           type="ended"
           link=""
         />
