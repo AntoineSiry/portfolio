@@ -81,6 +81,7 @@ function App() {
         <LinkButton href="https://github.com/AntoineSiry" target="_blank">Github</LinkButton>
         <LinkButton href="https://www.linkedin.com/in/antoine-siry" target="_blank">Linkedin</LinkButton>
         <LinkButton href="mailto:antoine.siry@gmail.com">Email</LinkButton>
+        <LinkButton href="/extern-documents/AntoineSiryCV.pdf">CV</LinkButton>
       </section>
     </main>
   )
